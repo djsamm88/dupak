@@ -45,7 +45,7 @@ body{
 		<div id="isi" class="container">	
 
 		
-		<h2><?php echo $title?> Administrator</h2>
+		<h2><?php echo $title?> - <?php echo $_SERVER['HTTP_HOST']?></h2>
 		
 			<form id="form_login_test" style="margin:0 auto;">
 					<table id="form_login">
