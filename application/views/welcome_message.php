@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Aplikasi Dinas Pendidikan</title>
+  <title><?php echo $_SERVER['HTTP_HOST']?></title>
     <link rel='shortcut icon' href='//humbanghasundutankab.go.id/old/wp-content/uploads/favicon.ico' />
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -193,7 +193,7 @@ desired effect
       Sistem Informasi PAK
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy;  <?php echo date('Y')?> <a href="#">-</a>.</strong> All rights reserved.
+    <strong>Copyright &copy;  <?php echo date('Y')?> - <?php echo $_SERVER['HTTP_HOST']?> <a href="#">-</a>.</strong> All rights reserved.
   </footer>
 
   <!-- Control Sidebar -->

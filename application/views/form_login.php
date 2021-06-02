@@ -13,7 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo $path?>css/custom.css">
 	
 
-	<title><?php if(isset($title)): echo $title; endif;?></title>
+	<title><?php if(isset($title)): echo $title; endif;?> <?php echo $_SERVER['HTTP_HOST']?></title>
 	<script type="text/javascript">
 				$(document).ajaxStart(function() { Pace.restart(); });
 	</script>
@@ -126,7 +126,7 @@ body{
 
 <footer class="footer">
       <div class="container">
-        <p class="text-muted">Copyright TamoraStore.com</p>
+        <p class="text-muted">Copyright <?php echo $_SERVER['HTTP_HOST']?></p>
       </div>
 </footer>
 
