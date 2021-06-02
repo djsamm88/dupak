@@ -1,0 +1,75 @@
+<table border="1">
+  <tr>
+    <td>Nama</td><td>SILVIA</td>
+  </tr>
+
+  <tr>
+    <td>Hp</td><td>1111</td>
+  </tr>
+
+  <tr>
+    <td>Alamat</td><td>medan</td>
+  </tr>
+
+  <tr>
+    <td>ID</td><td>#6</td>
+  </tr>
+
+<br>
+<br>
+<br>
+
+
+         <table class="table table-bordered" id="tbl_jurnal" border="1">
+           <thead>
+             <tr>
+                <th>No.</th>
+                <th>Id.Trx</th>
+                <th>Tanggal</th>
+                <th>Group Trx</th>
+                <th>Keterangan</th>
+                <th>Bukti</th>
+                <th>Debet</th>
+                <th>Kredit</th>
+                <th>Saldo</th>
+             </tr>
+           </thead>
+           <tbody>
+             
+                  <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>2021-04-22 14:17:58</td>
+                    <td>Piutang</td>
+                    <td>coba - A.n : SILVIA - ID :6</td>
+                    <td><a href='http://localhost/duta_system//uploads/' target='blank' ></a></td>
+
+                    <td style='text-align:right'>2.000.000</td>
+                    <td style='text-align:right'>0</td>
+                    <td style='text-align:right'>2.000.000</td>
+                  </tr>
+                
+                  <tr>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>2021-04-22 14:27:23</td>
+                    <td>Utang</td>
+                    <td>Saldo potong langsung saat belanja dengan ID TRX:210422142656_1 - A.n : SILVIA - ID :6</td>
+                    <td><a href='http://localhost/duta_system//uploads/' target='blank' ></a></td>
+
+                    <td style='text-align:right'>0</td>
+                    <td style='text-align:right'>400.000</td>
+                    <td style='text-align:right'>-400.000</td>
+                  </tr>
+                             
+           </tbody>
+           <tfoot>
+             <tr>
+                <th colspan='6' style='text-align:right'><b>Total</b></th>
+                <th style='text-align:right'><b>Rp.2.000.000</b></th>
+                <th style='text-align:right'><b>Rp.400.000</b></th>
+                <th style='text-align:right'><b>Rp.1.600.000</b></th>
+             </tr>
+           </tfoot>
+         </table>
+

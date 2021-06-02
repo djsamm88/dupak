@@ -1,0 +1,52 @@
+<table id="tbl_newsnya" class="table  table-striped table-bordered"  cellspacing="0" width="100%" border="1">
+      <thead>
+        <tr>
+              
+              <th>No</th>
+              <th>id</th>
+              <th>nama</th>
+              <th>NIP,NUPTK</th>              
+              <th>jenis_kelamin</th>
+              <th>tempat dan tanggal_lahir</th>              
+              <th>Pendidikan yang telah diperhitungkan angka kreditnya</th>
+              <th>pangkat/golongan/tmt_pangkat</th>              
+              <th>jabatan_fungsional/tmt_jabatan</th>
+              
+              <th>masa_kerja_golongan_lama</th>
+              <th>masa_kerja_golongan_baru</th>
+              <th>jenis_guru_tugas</th>
+              <th>sertifikasi_guru_sebagai</th>
+              <th>alamat_rumah</th>
+              <th>alamat_sekolah</th>
+
+              <th>Action</th>
+              
+        </tr>
+      </thead>
+      <tbody>
+         
+              
+              <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>Andi</td>
+                <td>000,999</td>                
+                <td>laki laki</td>
+                <td>medan 2020-10-13</td>
+                                
+                <td>xx</td>
+                <td>cc/vv/bb</td>                
+                <td>bb/b</td>                
+                <td>bb</td>
+                <td>b</td>
+                <td>b</td>
+                <td>b</td>
+                <td>b</td>
+                <td>b</td>
+                <td>
+                  <button class='btn btn-warning btn-xs' onclick='edit(1);return false;'>Edit</button>
+                  <button class='btn btn-danger btn-xs' onclick='hapus(1);return false;'>Hapus</button>    
+                </td>
+              </tr>
+                </tbody>
+  </table>
